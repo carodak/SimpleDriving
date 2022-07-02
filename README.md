@@ -1,5 +1,7 @@
 # Simple Driving Game
 
+Status: [Not finished yet]
+
 A small game where you drive a car on a track.
 
 I made this game during the Udemy course called "[Unity C# Mobile Game Development - Make 3 Games From Scratch](https://www.udemy.com/course/unity-mobile/)".
