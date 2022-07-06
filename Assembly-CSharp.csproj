@@ -37,6 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Scripts/Car.cs" />
+     <None Include="Assets/Assets/PolygonPrototype/PolygonPrototype/Shaders/Prototype_Glass_Global.shader" />
+     <None Include="Assets/Assets/PolygonPrototype/PolygonPrototype/Shaders/Prototype_Global.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -610,8 +612,14 @@
     <Reference Include="mscorlib">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>/Users/macbookpro/Documents/Unity/Simple Driving/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/macbookpro/Documents/Unity/Simple Driving/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>/Users/macbookpro/Documents/Unity/Simple Driving/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/macbookpro/Documents/Unity/Simple Driving/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
