@@ -8,7 +8,7 @@ I made this game during the Udemy course called "[Unity C# Mobile Game Developme
 I wanted to review my basics, adapt my knowledge of game programming to mobile game programming so that I could then create my own games later.
 
 ## Preview
-![Simple Driving Game Preview](Images/Simple_Driving.gif)
+![Simple Driving Game Preview](Images/Simple_Driving.gif){ width=50% }
 
 ## Tech used
 <b>Built with</b>
