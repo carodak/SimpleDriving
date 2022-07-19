@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.49641287, b: 0.5748173, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -879,6 +879,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1941793065}
   - component: {fileID: 1941793066}
+  - component: {fileID: 1941793067}
+  - component: {fileID: 1941793068}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -915,5 +917,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highScoreText: {fileID: 752380432}
   energyText: {fileID: 1769160852}
+  playButton: {fileID: 605839180}
   maxEnergy: 5
   energyRechargeDuration: 1
+  androidNotificationHandler: {fileID: 1941793067}
+  iosNotificationHandler: {fileID: 1941793068}
+--- !u!114 &1941793067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941793064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bf5917b107da41339131454894212c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1941793068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941793064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7144fb5e9ef96460ca85bbf47f3cc600, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -15,11 +15,15 @@ I wanted to review my basics, adapt my knowledge of game programming to mobile g
 - Unity 2020.3
 - C#
 
-## What I learnt
-
-
 ## Features
-
+- A driving game on IOS/Android
+- Camera seen from above that follows our car
+- Possibility to turn right or left by clicking on the right or left side of the phone screen
+- Presence of obstacles on the ground to avoid
+- Return to the main menu after a collision
+- Automatic saving of the best score
+- Number of successive plays limited to 5 plays with a refill every minute
+- Sends a notification as soon as the 5 plays are fully recharged
 
 ## Installation
 1. Download this github project
