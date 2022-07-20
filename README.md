@@ -15,6 +15,12 @@ I wanted to review my basics, adapt my knowledge of game programming to mobile g
 - Unity 2020.3
 - C#
 
+## What I learn
+- Use of different scenes
+- Use of canvas to detect clicks on the left or right side of the screen
+- Use of PlayerPrefs to store Player Score
+- Use of UnityMobileNotification package
+
 ## Features
 - A driving game on IOS/Android
 - Camera seen from above that follows our car
