@@ -1,7 +1,5 @@
 # Simple Driving Game
 
-Status: [Not finished yet]
-
 A small game where you drive a car on a track.
 
 I made this game during the Udemy course called "[Unity C# Mobile Game Development - Make 3 Games From Scratch](https://www.udemy.com/course/unity-mobile/)".
@@ -16,6 +14,12 @@ I wanted to review my basics, adapt my knowledge of game programming to mobile g
 <b>Built with</b>
 - Unity 2020.3
 - C#
+
+## What I learn
+- Use of different scenes
+- Use of canvas to detect clicks on the left or right side of the screen
+- Use of PlayerPrefs to store Player Score
+- Use of UnityMobileNotification package
 
 ## Features
 - A driving game on IOS/Android
